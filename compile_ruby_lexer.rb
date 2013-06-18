@@ -25,7 +25,7 @@ end
 
 # Bundle Gherkin's required gems for development.
 Dir.chdir gherkin_path
-`bundle`
+`bundle --path vendor`
 
 # In case we're using rbenv, we might have to rehash.
 `rbenv rehash` if system 'which rbenv > /dev/null 2>&1'
