@@ -25,7 +25,7 @@ end
 
 # Bundle Gherkin's required gems for development.
 Dir.chdir gherkin_path
-`bundle --path vendor`
+`bundle --path /srv/jenkins/workspace/gruclec-bundle-for-tinker-railsapp`
 
 # In case we're using rbenv, we might have to rehash.
 `rbenv rehash` if system 'which rbenv > /dev/null 2>&1'
